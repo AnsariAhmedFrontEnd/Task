@@ -1,12 +1,7 @@
-// let items = document.querySelector('.title');
+let items = document.getElementsByClassName('list-group-item');
 
-// items.style.color = 'green';
+items[2].style.backgroundColor = 'green';
 
-// items.innerHTML = '<b>Add Items</b>'
-
-
-let add = document.getElementsByClassName('.title');
-
-
-
-add.style.fontWeight = 'bold';
+for(let i = 0; i<items.length; i++) {
+    items[i].style.fontWeight = 'bold';
+}
